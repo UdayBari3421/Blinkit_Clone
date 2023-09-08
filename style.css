@@ -141,13 +141,28 @@ nav {
   }
 
   .vertical-line,
-  .hero-section>img {
+  .hero-section>img,
+  #Pan {
     display: none !important;
   }
 
   .nav-btns,
   .search-div {
     width: 80%;
+  }
+
+  .list-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .list-main>.my-list {
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
   }
 
   .container,
